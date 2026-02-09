@@ -2,7 +2,7 @@
 #include<iostream>
 #include<SFML/Graphics.hpp>
 
-PlayerC::PlayerC(std::string n, int h, int m, int a, int i,std::string image)
+PlayerC::PlayerC(std::string n, int h, int m, int a, int i,std::string image) // name hp mp atk items sprite
 : Unit(n,h,m,a,i,image),level(1),exp(0){
 
 };
@@ -32,4 +32,5 @@ void PlayerC::gainExp(int amount){
         std::cout << "lvl up"<<std::endl;
     }
     
+
 }

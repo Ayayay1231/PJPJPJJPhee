@@ -2,8 +2,8 @@
 #include <iostream>
 #include <algorithm>
 
-Unit::Unit(std::string n , int ้้h , int m, int atk,int i,std::string image)
-   : name(n), hp(้้h) ,maxHp(้้h), mp(m),atk(atk),items(i),  isGuarding(false){
+Unit::Unit(std::string n , int h , int m, int atk,int i,std::string image)
+   : name(n), hp(h) ,maxHp(h), mp(m),atk(atk),items(i),  isGuarding(false){
     if(!texture.loadFromFile("sprite/eps1.png")){
         std::cout << "load texture failed!" <<std::endl;
     }
